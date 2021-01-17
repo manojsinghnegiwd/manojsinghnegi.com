@@ -1,0 +1,6 @@
+export const MEDIUM_LINK = "https://medium.com/@manojsinghnegi"
+export const MY_BLOG = "http://manojsinghnegi.com/blog"
+export const TWITTER_LINK = "https://twitter.com/manojnegiwd"
+export const LINKEDIN_LINK = "https://www.linkedin.com/in/manojsinghnegiwd"
+export const GITHUB_LINK = "https://github.com/manojsinghnegiwd"
+export const RECRAFT_RELIC = "https://recraftrelic.com"

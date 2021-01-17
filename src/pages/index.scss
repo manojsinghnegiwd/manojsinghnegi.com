@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    color: #292929;
+    font-weight: bold;
+}
+
+// layout classes
+
+.div {
+    &-50 {
+        width: 50%;
+    }
+}
+
+// custom css
+
+.username {
+    font-size: 45px;
+}
+
+.description {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.recraftlink {
+    color: #ed5d45;
+    font-weight: bold;
+}
+
+.tech {
+    padding: 3px 5px;
+    margin: 0px 5px;
+
+    &.js {
+        background-color: #f7df1e;
+        color: #786e16;
+    }
+
+    &.reactjs {
+        background-color: #00d8ff;
+        color: #0f6d7f;
+    }
+
+    &.nodejs {
+        background-color: #6cc24a;
+        color: #366623;
+    }
+}
+
+.social-link {
+    font-size: 30px;
+    margin-bottom: 8px;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+
+    &.twitter {
+        color: #1da1f2;
+    }
+
+    &.medium {
+        color: #00ab6c;
+    }
+
+    &.linkedin {
+        color: #0077b5;
+    }
+
+    &.github {
+        color: #333333;
+    }
+}
